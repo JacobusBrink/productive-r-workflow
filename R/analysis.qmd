@@ -7,14 +7,15 @@ format:
     code-summary: "Code"
     toc: true
     toc-location: left
-    toc-title: " "
-    number-sections: true
+    toc-title: ""
+    include-in-header:
+      - file: github-corner.html
 fig-cap-location: margin
 author: 
   name: "Cobus Brink"
   affiliation: "University College Dublin"
   email: jacobus.brink@ucdconnect.ie
-keywords: "Quarto, Paradox, Data Analysis"
+  keywords: "Quarto, Paradox, Data Analysis"
 date: today
 description: "This document is a short analysis of the Penguin Dataset. It explores the relationship between bill length and bill depth and show how important it is to consider group effects."
 title-block-banner: "#f0f3f5"

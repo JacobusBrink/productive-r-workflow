@@ -1,11 +1,11 @@
 /* Space on top of the main title */
 h1 {
-  padding-top: 100px;
+  padding-top: 50px;
 }
 
 /* Space on top of titles of level 2 and 3 */
 h2, h3 {
-    padding-top: 84px;
+    padding-top: 42px;
 }
 
 /* Link font color */
@@ -28,4 +28,12 @@ a {
 details > summary {
     font-size: 12px;
     opacity: .5;
+}
+
+/* GitHub corner positioning */
+.github-corner {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1000; /* Ensures it's on top of the banner */
 }
