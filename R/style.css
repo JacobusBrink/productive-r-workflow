@@ -10,13 +10,13 @@ h2, h3 {
 
 /* Link font color */
 a {
-    color: #69b3a2;
+    color: red;
 }
 
 /* TOC color (left border and font color) */
 .sidebar nav[role=doc-toc] ul>li>a.active, .sidebar nav[role=doc-toc] ul>li>ul>li>a.active {
-    border-left: 1px solid #69b3a2;
-    color: #69b3a2 !important;
+    border-left: 1px solid red;
+    color: red !important;
 }
 
 /* No rounded corners for callouts */
