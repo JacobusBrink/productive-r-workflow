@@ -31,7 +31,10 @@ You can read more about the penguin dataset [here](https://allisonhorst.github.i
 
 Let's load libraries before we start!
 
-```{r, message=F, warning=F}
+```{r}
+#| messahe: false
+#| warning: false
+
 # load the tidyverse
 library(tidyverse)
 library(hrbrthemes)    # ipsum theme for ggplot2 charts
@@ -108,7 +111,11 @@ kable(bill_depth_per_specie)
 
 Now, let's check the relationship between bill depth and bill length for the specie `Adelie` on the island `Torgersen`:
 
-```{r, warning=FALSE, fig.height=3, fig.width=9, fig.cap="There is actually a positive correlation when split by species."}
+```{r}
+#| warning: false
+#| fig-height: 3
+#| fig-width: 9
+#| fig-cap: "There is actually a positive correlation when split by species."
 
 # Use the function in functions.R
 p1 <- create_scatterplot(data, "Adelie", "#6689c6")
